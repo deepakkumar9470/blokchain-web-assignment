@@ -1,0 +1,117 @@
+.join_container{
+    width: 100%;
+    height: 450px;
+    background: #090D26;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0;    
+}
+
+.join_text h3{ 
+  width: 50%;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 80px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 1rem 6.5rem;
+  padding: 1rem; 
+}
+
+
+.join_rightText{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 4rem;
+    
+}
+
+
+.join_rightText p{
+    width: 85%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    line-height: 28px;  
+    text-align: left;
+    
+}
+
+.join_rightText button{
+    width: 40%;
+    padding: 0.8rem 1.8rem;
+    border-radius: 10px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.join_rightText img{
+    width: 20px;
+    height: 20px;
+    margin-left: 0.2rem;
+}
+
+
+
+
+@media screen and (max-width : 768px) {
+
+
+   .join_container{
+      flex-direction: column;
+    }
+
+    .join_text h3{
+      width: 70%;
+      font-size: 45px;
+      text-align: center;
+    }
+
+   .join_rightText{
+      width: 80%;
+      text-align: center;
+      
+   }
+   .join_rightText p{
+     width: 75%;
+     font-size: 20px;
+     margin-left: 5rem;
+   }
+   .join_rightText button{
+     align-items: center;
+     margin-left: 10rem;
+
+    }
+  .join_rightText img{
+
+
+    }
+}
+
+
+@media screen and (max-width : 500px) {
+
+  .head_container{
+    width: 90%;
+    height: 50vh;
+    margin: 1.5rem;
+    overflow-x: hidden;
+  }
+  .head_container h1{
+    font-size: 2.2rem;
+  }
+  .form_div {
+    display: none;
+    width: 90%;
+  }
+}
+
+

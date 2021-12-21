@@ -1,0 +1,74 @@
+.marketing_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem 6rem;
+} 
+
+
+.marketing_cards{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:1px solid #0000;
+}
+.marketing_cards p{
+    height: 34px;
+    width: 293px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 1rem 0;
+}
+
+ .marketing_cards span{
+    width: 50px;
+    height: 73px;
+    width: 305px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.marketing_cards img {
+    width: 26px;
+    height: 24px;
+    z-index: 999;
+    background: #000;
+    border-radius: 50%;
+    padding: 0.2rem;
+
+}
+
+@media screen and (max-width : 768px) {
+
+    .marketing_container{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .marketing_cards{
+        width: 100%;
+        
+    }
+
+    
+  }
+  
+  
+  @media screen and (max-width : 500px) {
+  
+    
+    .marketing_container{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .marketing_cards{
+        width: 100%;
+        
+    }
+  }
+  
